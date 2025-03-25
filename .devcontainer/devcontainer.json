@@ -1,0 +1,11 @@
+{
+    "name": "Flet con Python",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "pip install flet"
+}
